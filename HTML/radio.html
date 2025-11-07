@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button</title>
+</head>
+<body>
+    <form>
+        <!-- IN URL ON IS PASS ALSO WE CAN'T GET WHICH FRUIT WE HAVE SELECTED -->
+         <!-- GROUPING coz name is same for all -->
+        <div>
+            <input type="radio" id="rb1" name="fruit">
+            <label for="rb1">APPLE</label>
+            <input type="radio" id="rb2" name="fruit">
+            <label for="rb2">MANGO</label>
+            <input type="radio" id="rb3" name="fruit">
+            <label for="rb3">BANANA</label>
+        </div>
+        <button>Button</button>
+    </form>
+    <hr>
+    <form>
+        <!-- IN URL SPECIFIC SELECTED FRUIT NAME GET PASS -->
+        <div>
+            <input type="radio" id="rb1" name="fruit" value="apple">
+            <label for="rb1">APPLE</label>
+            <input type="radio" id="rb2" name="fruit" value="mango">
+            <label for="rb2">MANGO</label>
+            <input type="radio" id="rb3" name="fruit" value="banana">
+            <label for="rb3">BANANA</label>
+        </div>
+        <button>Button</button>
+    </form>
+    <hr>
+        <form>
+        <!-- NON-GROUPING boz name is not same for all -->
+         <!-- we are able to select multiple options -->
+        <div>
+            <input type="radio" id="rb1" name="fruit1">
+            <label for="rb1">APPLE</label>
+            <input type="radio" id="rb2" name="fruit2">
+            <label for="rb2">MANGO</label>
+            <input type="radio" id="rb3" name="fruit3">
+            <label for="rb3">BANANA</label>
+        </div>
+        <button>Button</button>
+    </form>
+    <hr>
+        <form>
+        <!-- NON-GROUPING boz name is not same for all -->
+         <!-- we are able to select multiple options -->
+          <!-- VALUES ARE DEFINED -->
+        <div>
+            <input type="radio" id="rb1" name="fruit1" value="apple">
+            <label for="rb1">Apple</label>
+            <input type="radio" id="rb2" name="fruit2" value="mango">
+            <label for="rb2">Mango</label>
+            <input type="radio" id="rb3" name="fruit3" value="banana">
+            <label for="rb3">Banana</label>
+        </div>
+        <button>Button</button>
+    </form>
+</body>
+</html>
